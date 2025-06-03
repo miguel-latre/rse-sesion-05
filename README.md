@@ -1,20 +1,20 @@
-# Introducción a la Ingeniería del Software para la Investigación
+# Software Development for Researchers
 
-## Pruebas automáticas
+## Automatic Testing
 
-Datos y código fuente de partida para los ejercicios de la quinta sesión del curso [Introducción a la Ingeniería del Software para la Investigación](https://cursosextraordinarios.unizar.es/curso/2024/introduccion-la-ingenieria-del-software-para-la-investigacion).
+Data and staring source code for the exercises of the fifth session of the 
+course [Software Development for Researchers](https://moodle.unizar.es/add/course/view.php?id=134531).
 
-El fichero ``quijote.txt`` ha sido descargado de la web de
-[Project Gutenberg](https://www.gutenberg.org/) a través del enlace https://www.gutenberg.org/ebooks/2000
+The file ``quijote.txt`` has been downloaded from the
+[Project Gutenberg](https://www.gutenberg.org/) website via the link https://www.gutenberg.org/ebooks/2000.
 
-Ha sido editado para dejar exclusivamente el
-contenido de la citada obra. El fichero
-original descargado, que incluye metadatos e información de
-licencia, se encuentra en el directorio ``res/originalesProjectGutenberg``.
+It has been edited to include only the content of the mentioned work.
+The original downloaded file, which includes metadata and license information,
+can be found in the ``res/originalesProjectGutenberg`` directory.
 
-Detalles sobre sus términos de uso pueden encontrarse también en
+Details about its terms of use can also be found at
 https://www.gutenberg.org/policy/permission.html.
-En particular:
+In particular:
 
 > _This eBook is for the use of anyone anywhere at no cost and with
 > almost no restrictions whatsoever. You may copy it, give it away or

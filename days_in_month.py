@@ -26,14 +26,14 @@ def days_in_month(month: int, year: int) -> int:
         the number of days that provided month has in the provided year.
     """
     if month == 2:
-        # Febrero: el número de día depende del año
+        # February: number of days depends on the year
         if is_leap_year(year):
             return 29
         else:
             return 28
     elif month in (4, 6, 9, 11):
-        # Abril, junio, septiembre o noviembre
+        # April, June, September, November
         return 30
     else:
-        # Resto de meses
+        # Rest
         return 31
