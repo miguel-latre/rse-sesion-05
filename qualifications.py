@@ -1,5 +1,5 @@
-"""Ejercicio sesión 5 (pruebas automáticas)
-Hay un defecto.
+"""Session 5 examples (automatic testing)
+The function qualification has one defect.
 """
 
 
@@ -20,7 +20,7 @@ def qualification(mark: float) -> str:
     if mark < 0 or mark > 10 or round(mark, 1) != mark:
         raise ValueError
     elif mark < 5:
-        return "SS"
+        return "SB"
     elif mark < 7:
         return "AP"
     elif mark < 9:

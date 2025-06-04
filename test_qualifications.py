@@ -37,4 +37,4 @@ def test_more_than_one_decimal_place_is_wrong():
 
 def test_non_numerical_marks_are_wrong():
     with pytest.raises(TypeError):
-        qualification("Non numerical")
+        qualification("pass")
