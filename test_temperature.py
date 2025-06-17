@@ -12,9 +12,10 @@ def test_to_Fahrenheit_no_numeric():
 
 
 @pytest.mark.parametrize(
-    "celsius, expected", [(30, 86), (0, 32), (37.7777777777777777, 100), (100, 212)]
+    "celsius, expected",
+    [(30, 86), (0, 32), (37.7777777777777777, 100), (100, 212)],
 )
-def test_to_fahrenheit_parameterized(celsius, expected):
+def test_to_fahrenheit_parameterized(celsius: float, expected: float):
     assert to_fahrenheit(celsius) == expected
 
 
