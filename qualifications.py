@@ -21,7 +21,7 @@ def qualification(mark: float) -> str:
         raise ValueError
     elif mark < 5:
         return "SB"
-    elif mark < 7:
+    elif mark <= 7:
         return "AP"
     elif mark < 9:
         return "NT"
